@@ -1,41 +1,73 @@
-# Getting Started with Create React App
+# 📦 Storlogix - Inventory & Order Management Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Storlogix is a modern and responsive inventory and order management dashboard built using **React** and **TypeScript**. It is designed to streamline warehouse operations, track inventory and manage orders efficiently with real-time data capabilities.
 
-## Available Scripts
+---
+
+## 🚀 Live Demo
+
+🌐 [storlogix.vercel.app](https://storlogix.vercel.app) (deployed via Vercel)
+
+---
+
+## 🔧 Features
+
+- 📊 Dashboard Overview
+- 📦 Inventory Uploads via Excel
+- 📦 Real-time Stock Management
+- 🧾 Order Processing and Status
+- 📈 Analytics and Reports (coming soon)
+- 👥 Buyer/Client Management
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend:
+- React (via Create React App)
+- TypeScript
+- React Router
+- Axios
+- Redux Toolkit
+- Tailwind CSS / SCSS
+- SheetJS + React Dropzone (Excel Upload)
+
+### Backend (Work in Progress):
+- FastAPI (Python)
+- SQLAlchemy (async)
+- MongoDB or PostgreSQL (TBD)
+
+---
+
+## 📁 Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+# npm start
+Runs the app in development mode.
+Open http://localhost:3000 to view it in the browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-### `yarn test`
+# npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
+# npm run build
+Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about deployment for more information.
 
-### `yarn eject`
+# npm run eject
+Note: this is a one-way operation. Once you eject, you can’t go back!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point, you’re on your own.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
+You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However, we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
