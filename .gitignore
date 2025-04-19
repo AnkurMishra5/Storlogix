@@ -1,7 +1,0 @@
-# Environment Configuration
-.env
-.env.*
-
-
-# dependencies
-node_modules
