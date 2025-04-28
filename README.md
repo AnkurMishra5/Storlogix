@@ -6,7 +6,7 @@ Storlogix is a modern and responsive inventory and order management dashboard bu
 
 ## 🚀 Live Demo
 
-🌐 [storlogix.vercel.app] (deployed via Vercel)
+🌐 [https://storlogix.vercel.app/] (deployed via Vercel)
 
 ---
 
